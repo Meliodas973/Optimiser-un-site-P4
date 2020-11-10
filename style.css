@@ -681,8 +681,16 @@ h4 {
     color: black;
 }
 
+.tc-white2 span {
+    font-size: 15px;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
+}
+
+.col-sm-6 p {
+    font-size: 15px;
 }
 
 .btn-atomic-tangerine:hover {
@@ -771,8 +779,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 0;
+        padding-right: 0;
     }
     .bloc-group, .bloc-group .bloc {
         display: block;
@@ -780,8 +788,8 @@ h4 {
     }
     .bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
